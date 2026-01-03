@@ -21,17 +21,6 @@ A content-based movie recommendation system built with Python. This application 
 * **NumPy:** For efficient numerical operations.
 * **Scikit-learn:** For `CountVectorizer` and calculating `Cosine Similarity`.
 
-## 📂 Project Structure
-```bash
-movie-recommender/
-├── data/
-│   └── tmdb_5000_movies.csv    # Raw dataset
-├── app.py                      # Main Streamlit application
-├── movies.pkl                  # Pickled movie list (generated)
-├── similarity.pkl              # Pickled similarity matrix (generated)
-├── requirements.txt            # List of dependencies
-└── README.md                   # Project documentation
-```
 **Clone the repository**
 ```bash
 git clone [https://github.com/codewithmittalhardik/movie-recommendation-system.git](https://github.com/codewithmittalhardik/movie-recommendation-system.git)
@@ -57,4 +46,15 @@ pip install -r requirements.txt
 **Run the application**
 ```bash
 streamlit run app.py
+```
+## 📂 Project Structure
+```bash
+movie-recommender/
+├── data/
+│   └── tmdb_5000_movies.csv    # Raw dataset
+├── app.py                      # Main Streamlit application
+├── movies.pkl                  # Pickled movie list (generated)
+├── similarity.pkl              # Pickled similarity matrix (generated)
+├── requirements.txt            # List of dependencies
+└── README.md                   # Project documentation
 ```
