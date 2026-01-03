@@ -62,3 +62,45 @@ if st.button('Recommend'):
     with col5:
         st.text(names[4])
         st.image(poster[4])
+
+
+st.markdown("""
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: #f1f1f1;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        z-index: 1000;
+    }
+    .footer a {
+        margin: 0 15px;
+        color: #333;
+        text-decoration: none;
+    }
+    .footer .linkedin:hover {
+        color: #0072b1;
+        transform: scale(1.2);
+    }.footer .github:hover {
+        color: #f1f1f1;
+        transform: scale(1.2);
+    }.footer .mail:hover {
+        color: red;
+        transform: scale(1.2);
+    }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <div class="footer">
+        <p>Connect with me:</p>
+        <a href="https://www.linkedin.com/in/mittalhardik" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/codewithmittalhardik" target="_blank" class="github"><i class="fab fa-github"></i></a>
+        <a href="mailto:mittalhardik2007@gmail.com" class="mail"><i class="fas fa-envelope"></i></a>
+    </div>
+    """, unsafe_allow_html=True)
